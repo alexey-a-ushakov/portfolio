@@ -92,7 +92,10 @@ body {
 }
 
 .background {
-  background: url('@/assets/home.jpg');
+  background-image: url('@/assets/home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   /* z-index: -1;
   width: 100%;
   height: 100%;

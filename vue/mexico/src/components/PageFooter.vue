@@ -38,6 +38,10 @@ footer {
   display: flex;
   justify-content: space-around;
 }
+.communications a:hover {
+  transform: scale(1.1);
+  transition: .1s;
+}
 
 .VK {
   width: 60px;
